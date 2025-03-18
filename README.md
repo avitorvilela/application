@@ -5,7 +5,7 @@
 
 ```mermaid
 classDiagram
-    class Client {
+    class User {
         +String name
         +Account account
         +Card card
@@ -35,9 +35,8 @@ classDiagram
         +String description
     }
 
-    Client --> Account
-    Client --> Card
-    Client --> "*" Feature
-    Client --> "*" News
-
+    User *-- Account
+    User *-- Card
+    User *-- Feature
+    User *-- News
 ```
