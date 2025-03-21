@@ -1,0 +1,28 @@
+{
+  "name" : "Antonio",
+  "account" : {
+    "number" : "00000000-0",
+    "agency" : "0000",
+    "balance" : 1324.64,
+    "limit" : 1000.00
+  },
+
+  "features": [
+    {
+      "icon" : "URL",
+      "description" : "PIX"
+    }
+  ],
+
+  "card" : {
+    "number" : "xxxx xxxx xxxx 0000",
+    "limit" : 1000.00
+  },
+
+  "news" : [
+    {
+    "icon" : "URL",
+    "description" : "O Santander tem soluções de crédito sob medida para você."
+    }
+  ]
+}

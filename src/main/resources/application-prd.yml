@@ -1,11 +1,15 @@
 spring:
   datasource:
-    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
-    username: ${PGUSER}
-    password: ${PGPASSWORD}
+    url: jdbc:postgresql://trolley.proxy.rlwy.net:53775/railway
+    username: postgres
+    password: BoLrxjyKJelTiqvOKGNvPpUkXlOBrGan
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       open-in-view: false
-      ddl-auto: create
+      ddl-auto: validate #set to create at the first run, then set to validate.
+
+#url     -> trolley.proxy.rlwy.net
+#port    -> 53775
+#databse -> railway
